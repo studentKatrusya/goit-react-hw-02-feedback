@@ -1,0 +1,21 @@
+.btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgb(136, 109, 75);
+  color: rgb(247, 241, 241);
+  font-size: 30px;
+cursor: pointer;
+    border: none;
+      transform: scale(1);
+  transition-duration: 300ms;
+
+}
+
+.btn:not(:last-child){
+    margin-right: 30px;
+}
+.btn:hover{
+transform: scale(1.1);
+  transition-duration: 300ms; 
+}
