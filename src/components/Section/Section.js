@@ -1,12 +1,13 @@
-import React from 'react' 
+import React from 'react';
+import s from './Section.module.css';
 
-			
-		 function Section()
-		 {
-		  
-			 return (<div></div>);
-	
-		 }
-			
-		 export default Section ; 
-			
+function Section({ title, children }) {
+  return (
+    <section className={s.section}>
+      <h2 className={s.title}>{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+export default Section;
